@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portafolio profesional de un desarrollador web">
+    <title>Portafolio | Nombre Apellido</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+</head>
+<body>
+
+    <!-- Barra de navegación -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">🚀 Mi Portafolio</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#sobre-mi">Sobre Mí</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#proyectos">Proyectos</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#experiencia">Experiencia</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contacto">Contacto</a></li>
+                    <li class="nav-item">
+                        <button class="btn btn-light" id="modoOscuro">🌙 Modo Dark</button>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Sección Inicio -->
+    <header class="container text-center mt-5">
+        <img src="https://cdn3.iconfinder.com/data/icons/data-science-set-01-2/65/20-512.png" class="img-thumbnail">
+        <h1 id="nombre">Hola, soy <span class="text-primary">Nombre Apellido</span></h1>
+        <p>Desarrollador Web | Frontend | Backend</p>
+    </header>
+
+    <!-- Sección Sobre Mí -->
+    <section id="sobre-mi" class="container text-center mt-5">
+        <h2>Sobre Mí</h2>
+        <p>Soy un desarrollador apasionado por la tecnología y la creación de experiencias web dinámicas.</p>
+    </section>
+
+    <!-- Sección Proyectos -->
+    <section id="proyectos" class="container mt-5">
+        <h2 class="text-center">Proyectos</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://www.tucanit.com/wp-content/uploads/2021/10/almadraba.jpg" class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title">Proyecto 1</h5>
+                        <p class="card-text">Descripción breve del proyecto.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://www.tucanit.com/wp-content/uploads/2021/10/oficina.jpg" class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title">Proyecto 2</h5>
+                        <p class="card-text">Descripción breve del proyecto.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMIjzhc7m8zFXXhW09E_ZnBNVNRCAwdKZHAQ&s" class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title">Proyecto 3</h5>
+                        <p class="card-text">Descripción breve del proyecto.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección Contacto -->
+    <section id="contacto" class="container text-center mt-5">
+        <h2>Contacto</h2>
+        <p>Encuéntrame en:</p>
+        <a href="#" class="btn btn-primary"><i class="fab fa-linkedin"></i> LinkedIn</a>
+        <a href="#" class="btn btn-dark"><i class="fab fa-github"></i> GitHub</a>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>

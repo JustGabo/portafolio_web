@@ -1,0 +1,27 @@
+body {
+    padding-top: 60px;
+    transition: background 0.5s, color 0.5s;
+}
+
+.dark-mode {
+    background: #121212;
+    color: white;
+}
+
+.card {
+    transition: transform 0.3s ease-in-out;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+@keyframes heartbeat {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.03); }
+    100% { transform: scale(1); }
+}
+
+.card {
+    animation: heartbeat 3s infinite;
+}
